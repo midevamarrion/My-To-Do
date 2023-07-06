@@ -1,0 +1,84 @@
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  /* padding: 20px; */
+  display: inline-block;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#todos {
+  
+  margin-top: 10%;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  gap: 10px;
+}
+
+.todo {
+  border: 5px solid #ccc;
+  padding: 10px;
+  background-color: grey;
+
+}
+
+.completed {
+  /* background-color: lightgreen; */
+}
+
+.uncompleted {
+  /* background-color: lightcoral; */
+}
+
+#addTodoForm {
+  /* display: flex; */
+  align-items: center;
+  margin-top: 20px;
+}
+
+#todoInput {
+  /* flex: 1; */
+  padding: 5px;
+  margin-top: 20px;
+
+}
+
+#addTodoForm button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#addTodoForm button:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #bbb;
+}
